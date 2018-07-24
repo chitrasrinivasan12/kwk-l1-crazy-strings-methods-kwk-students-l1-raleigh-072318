@@ -13,5 +13,5 @@ end
 def crazy_strings("Hello", "Friends")
   "Hello" = "Hello".reverse.upcase
   "Friends" = "Friends".swapcase.gsub("s", "z")
-  return "#{Hello} #{Friends}"
+  return "Hello" + "Friends"
 end
